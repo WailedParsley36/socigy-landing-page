@@ -14,6 +14,9 @@ export default {
         "primary-yellow": "#FAA328",
         "primary-red": "#E0394C",
         "primary-purple": "#94286D",
+        "blacky": {
+          500: "#080808"
+        }
       },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1.5" }],

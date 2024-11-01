@@ -11,13 +11,13 @@ const socialLinks = [
     {
         label: "Twitter2",
         iconSrc: "",
-        to: "https://x.com",
+        to: "https://x.com/",
         css: "text-primary-red/85 hover:text-primary-red",
     },
     {
         label: "Twitter",
         iconSrc: "",
-        to: "https://x.com",
+        to: "https://x.com/a",
         css: "text-primary-purple/85 hover:text-primary-purple",
     }
 ]
