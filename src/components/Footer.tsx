@@ -18,7 +18,7 @@ const socialLinks = [
         label: "Twitter",
         iconSrc: "",
         to: "https://x.com/a",
-        css: "text-primary-purple/85 hover:text-primary-purple",
+        css: "text-primary-red/85 hover:text-primary-red",
     }
 ]
 

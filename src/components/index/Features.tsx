@@ -73,7 +73,7 @@ function FamilyContent() {
 const features = [
   {
     title: "Programable plugins",
-    css: "border-primary-purple shadow shadow-primary-purple/25",
+    css: "border-primary-yellow shadow shadow-primary-yellow/25",
     iconSrc: PluginsIcon,
     iconWidth: 19,
     iconHeight: 19,

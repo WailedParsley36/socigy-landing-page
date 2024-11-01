@@ -19,7 +19,7 @@ export default function NoFound() {
                     </p>
                     <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="900">
                         <div>
-                            <Link className="bg-gradient-to-r from-primary-yellow via-primary-red to-primary-purple text-white w-full font-poppins transition duration-150 ease-in-out group btn" to="/">
+                            <Link className="bg-gradient-to-r from-primary-yellow to-primary-red text-white w-full font-poppins transition duration-150 ease-in-out group btn" to="/">
                                 Back to home -&gt;
                             </Link>
                         </div>
