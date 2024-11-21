@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.socigy.android",
+      "sha256_cert_fingerprints": [
+        "4F:1D:72:4C:F5:F9:D2:FD:D8:1E:87:46:27:90:34:2F:AF:C4:CF:01:0A:11:08:19:74:7F:EB:3E:28:4B:68:35"
+      ]
+    }
+  }
+]
