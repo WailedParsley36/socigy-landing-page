@@ -44,7 +44,7 @@ const analytics = initializeAnalytics(app, {
         send_page_view: false
     }
 });
-setAnalyticsCollectionEnabled(analytics, false)
+setAnalyticsCollectionEnabled(analytics, true)
 
 const waitlistManager = new WaitlistManager(app)
 
