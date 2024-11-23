@@ -1,6 +1,5 @@
 import { FormEvent, useEffect, useRef, useState } from "react";
 
-import SocigyLogo from '../assets/socigy.svg'
 import CheckIcon from '../assets/icons/check-icon.svg'
 import CloseIcon from '../assets/icons/close-icon.svg'
 
