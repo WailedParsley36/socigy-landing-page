@@ -18,14 +18,14 @@ const routes = [
 ]
 
 export default function Navbar() {
-    return <header className="absolute w-full z-30">
+    return <header className="absolute w-full z-30 bg-gradient-to-t from-transparent to-black">
         <div className="mx-auto px-4 sm:px-6 lg:px-24">
-            <div className="flex items-center justify-between h-16 md:h-20 pt-4 md:pt-0">
+            <div className="flex items-center justify-between h-16 md:h-20 pt-6 md:pt-0">
 
                 {/* Site branding */}
                 <div className="flex-1">
-                    <div className="mt-1">
-                        <Link to='/'>
+                    <div className="mt-1 w-fit">
+                        <Link to='/' className="w-fit">
                             <img src={LogoText} />
                         </Link>
                     </div>
@@ -37,7 +37,7 @@ export default function Navbar() {
                     {/* Desktop menu links */}
                     <ul className="flex grow justify-center flex-wrap items-center">
                         {routes.map(x =>
-                            <li>
+                            <li key={x.route}>
                                 <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to={x.route}>{x.title}</Link>
                             </li>
                         )}
@@ -51,7 +51,7 @@ export default function Navbar() {
                         <p className="text-slate-300">Edit</p>
                     </li> */}
                     <li className="ml-6 hidden sm:block">
-                        <Link className="btn-sm text-slate-200 hover:text-white transition duration-150 ease-in-out w-full group border-gray-400 border-2 relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" to="/signup">
+                        <Link className="btn-sm text-slate-200 hover:text-white transition duration-150 ease-in-out w-full group border-gray-400 border-2 relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" to="/waitlist">
                             <span className="relative inline-flex items-center">
                                 Join the waitlist <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                             </span>
@@ -123,7 +123,7 @@ function MobileMenu() {
                         <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to="/">Home</Link>
                     </li>
                     {routes.map(x =>
-                        <li>
+                        <li key={x.route}>
                             <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to={x.route}>{x.title}</Link>
                         </li>
                     )}

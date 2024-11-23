@@ -1,5 +1,5 @@
-import FormPlugin from '@tailwindcss/forms'
-import TypographyPlugin from '@tailwindcss/typography'
+import FormPlugin from "@tailwindcss/forms";
+import TypographyPlugin from "@tailwindcss/typography";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -13,13 +13,11 @@ export default {
         poppins: ['"Poppins", sans-serif'],
       },
       colors: {
-        footer: "#191919",
+        footer: "#151515",
         "primary-yellow": "#FAA328",
         "primary-red": "#E0394C",
         "primary-purple": "#94286D",
-        "blacky": {
-          500: "#080808"
-        }
+        blacky: "#212121",
       },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1.5" }],
@@ -83,8 +81,5 @@ export default {
       },
     },
   },
-  plugins: [
-    FormPlugin,
-    TypographyPlugin,
-  ],
+  plugins: [FormPlugin, TypographyPlugin],
 };
