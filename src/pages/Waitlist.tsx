@@ -87,9 +87,6 @@ export default function Waitlist() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 text-center overflow-hidden">
             <div className="pt-32 pb-16 md:pt-52 md:pb-32">
                 <div className="max-w-3xl lg:max-w-5xl mx-auto text-center">
-                    <div data-aos="fade-down" className='w-full text-center items-center flex justify-center mb-24'>
-                        <img src={SocigyLogo} className='w-16 sm:w-20 md:w-24 lg:w-30' />
-                    </div>
                     <div className="text-center w-full items-center justify-center flex">
                         <h1 style={{ lineHeight: "1.5em" }} className="h1 lg:text-7xl pb-4 font-poppins leading-8 lg:max-w-3xl" data-aos="fade-down">
                             <span className="bg-clip-text text-white mb-12">Join the waitlist for </span>
