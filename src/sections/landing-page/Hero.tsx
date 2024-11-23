@@ -27,7 +27,7 @@ export default function Hero() {
                             </span>
                         </h1>
                         <div className='max-w-2xl text-center mx-auto'>
-                            <p className="text-sm px-5 text-gray-500 mb-8 md:text-lg" data-aos="fade-down" data-aos-delay="200">A social network offering unparalleled customization, AI-poweredvbb content, family security, and tools for creators to monetize their work</p>
+                            <p className="text-sm px-5 text-gray-500 mb-8 md:text-lg" data-aos="fade-down" data-aos-delay="200">A social network offering unparalleled customization, AI-powered content, family security, and tools for creators to monetize their work</p>
                             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
                                 <div>
                                     <Link className="btn py-3 text-lg text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" to="/waitlist">
