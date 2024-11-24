@@ -110,7 +110,7 @@ export default function Footer() {
                         <div className="h-full flex flex-col sm:flex-row lg:flex-col justify-between">
                             <div className="mb-4 sm:mb-0">
                                 <div className="mb-4 flex flex-row">
-                                    <img src={LogoCombined} width={100} />
+                                    <img src={LogoCombined} width={100} alt='Logo of Socigy' />
                                 </div>
                                 <div className="text-sm text-slate-300">© Socigy s.r.o. <span className="text-slate-500">-</span> 2024 All rights reserved.</div>
                             </div>
@@ -118,7 +118,7 @@ export default function Footer() {
                             <ul className="flex mt-6 space-x-3">
                                 {socialLinks.map(x => <li key={x.to}>
                                     <Link className={"flex justify-center items-center hover:scale-105 transition duration-150 ease-in-out " + x.css} to={x.to} aria-label={x.label}>
-                                        <img src={x.iconSrc} className='w-8' />
+                                        <img src={x.iconSrc} className='w-8' alt='Social Link Logo' />
                                     </Link>
                                 </li>)}
                             </ul>

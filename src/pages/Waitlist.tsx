@@ -187,12 +187,12 @@ export default function Waitlist() {
                             </div>
                             {result == true ?
                                 <div className="flex space-x-3 justify-center font-inter" data-aos="zoom-in" data-aos-duration="300">
-                                    <img src={CheckIcon} />
+                                    <img src={CheckIcon} alt='Checkmark icon of success' />
                                     <p className="text-green-600">Successfully joined the waitlist!</p>
                                 </div>
                                 : result == false &&
                                 <div className="flex space-x-3 justify-center font-inter" data-aos="zoom-in" data-aos-duration="300">
-                                    <img src={CloseIcon} />
+                                    <img src={CloseIcon} alt='Cross icon for error' />
                                     <p className="text-red-600">{error ? error : "Failed to join the waitlist!"}</p>
                                 </div>
                             }

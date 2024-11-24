@@ -18,7 +18,7 @@ export default function Cta() {
                         </Link>
                     </div>
                     <div className='absolute inset-0 from-blacky bg-gradient-to-b bg-no-repeat lg:bg-none sm:bg-gradient-to-r from-40% z-10 rounded-xl' />
-                    <img src={BottomRightAngled} className='absolute bottom-0 right-0 max-h-80 md:max-h-[28rem]' />
+                    <img src={BottomRightAngled} className='absolute bottom-0 right-0 max-h-80 md:max-h-[28rem]' alt='Mockup of smartphone' />
                 </div>
             </div>
         </div>

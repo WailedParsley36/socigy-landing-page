@@ -76,7 +76,7 @@ interface UserTestimonialProps {
 function UserTestimonial({ className, name, content, iconSrc, aosType }: UserTestimonialProps) {
     return <div className={clsx('rounded-2xl p-6 w-full md:col-span-3 bg-blacky', className)} data-aos={aosType}>
         <div className='flex flex-row align-middle space-x-3'>
-            <img src={iconSrc ?? '/favicon.svg'} className='w-10' />
+            <img src={iconSrc ?? '/favicon.svg'} className='w-10' alt='User Avatar' />
             <span className='my-auto text-white font-poppins font-medium text-xl'>{name}</span>
         </div>
         <div className='mt-4'>

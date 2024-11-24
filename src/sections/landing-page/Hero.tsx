@@ -15,7 +15,7 @@ export default function Hero() {
                     <div className="m-auto text-center">
                         <div className="mb-12" data-aos="fade-down">
                             <div className="inline-flex relative">
-                                <img src={Logo} className='w-16 sm:w-20 md:w-24 lg:w-30' />
+                                <img src={Logo} className='w-16 sm:w-20 md:w-24 lg:w-30' alt='Icon of Socigy Application' />
                             </div>
                         </div>
                         <h1 className="h1 bg-clip-text leading-snug text-transparent bg-gradient-to-r from-slate-100/60 via-slate-100 to-slate-100/60 pb-4 font-inter font-extrabold" data-aos="fade-down">

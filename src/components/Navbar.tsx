@@ -26,7 +26,7 @@ export default function Navbar() {
                 <div className="flex-1">
                     <div className="mt-1 w-fit">
                         <Link to='/' className="w-fit">
-                            <img src={LogoText} />
+                            <img src={LogoText} alt='Text logo of Socigy' />
                         </Link>
                     </div>
                 </div>
