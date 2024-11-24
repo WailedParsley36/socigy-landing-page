@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import PageMetadata from "../components/PageMetadata";
 import { Particles } from "../utility/Particles";
 
@@ -39,14 +38,6 @@ export default function ContactUs() {
                         Prague, Prague 10 101 00 <br />
                         Czechia
                     </p>
-                    <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down">
-                        <div>
-                            <Link className="text-md font-bold bg-gradient-to-r from-white/80 via-white to-white/80 text-black w-full font-poppins transition duration-150 ease-in-out group btn" to="/">
-                                Back to home
-                            </Link>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
