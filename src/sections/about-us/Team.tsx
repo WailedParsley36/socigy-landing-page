@@ -1,5 +1,5 @@
-import TeamImg01 from "../../assets/user-icons/patrik.jpg";
-import TeamImg02 from "../../assets/about/vilda.png";
+import TeamImg01 from "../../assets/user-icons/patrik.webp";
+import TeamImg02 from "../../assets/about/vilda.webp";
 import { Particles } from "../../utility/Particles";
 import { Link } from "react-router-dom";
 

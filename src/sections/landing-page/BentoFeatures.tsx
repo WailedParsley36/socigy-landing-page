@@ -1,8 +1,8 @@
 import Highlighter, { HighlighterItem } from "../../utility/Highlighter";
 
-import FeatureImg01 from '../../assets/features/customization.png'
+import FeatureImg01 from '../../assets/features/customization.webp'
 import FeatureImg02 from '../../assets/features/profits.svg'
-import FeatureImg03 from '../../assets/features/security.png'
+import FeatureImg03 from '../../assets/features/security.webp'
 import FeatureImg04 from '../../assets/features/browser-tabs.svg'
 import { ReactElement } from "react";
 import clsx from "clsx";

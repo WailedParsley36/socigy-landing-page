@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 import LogoCombined from '../assets/socigy-combined.svg'
 
 import Insta from '../assets/icons/instagram.svg'
-import LinkedIn from '../assets/icons/linekdin.png'
-import Crunch from '../assets/icons/crunch.png'
+import LinkedIn from '../assets/icons/linekdin.webp'
+import Crunch from '../assets/icons/crunch.webp'
 
 const socialLinks = [
     {

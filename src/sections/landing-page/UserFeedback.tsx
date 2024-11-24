@@ -1,10 +1,10 @@
 import clsx from 'clsx'
 import { Particles } from '../../utility/Particles'
 
-import User1Icon from '../../assets/testimonials/user1.png'
-import User2Icon from '../../assets/testimonials/user2.png'
-import User3Icon from '../../assets/testimonials/user3.png'
-import User4Icon from '../../assets/testimonials/user4.png'
+import User1Icon from '../../assets/testimonials/user1.webp'
+import User2Icon from '../../assets/testimonials/user2.webp'
+import User3Icon from '../../assets/testimonials/user3.webp'
+import User4Icon from '../../assets/testimonials/user4.webp'
 import { useAosSlidingAnimation } from '../../hooks/useAosSlidingAnimation'
 
 const testimonials = [

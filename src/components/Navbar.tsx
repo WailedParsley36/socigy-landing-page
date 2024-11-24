@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { Link } from "react-router-dom"
-import LogoText from '../assets/socigy-text.svg'
+import LogoText from '/socigy-text.webp'
 
 const routes = [
     {
@@ -26,7 +26,7 @@ export default function Navbar() {
                 <div className="flex-1">
                     <div className="mt-1 w-fit">
                         <Link to='/' className="w-fit">
-                            <img src={LogoText} alt='Text logo of Socigy' />
+                            <img src={LogoText} alt='Text logo of Socigy' height={28} width={108} />
                         </Link>
                     </div>
                 </div>

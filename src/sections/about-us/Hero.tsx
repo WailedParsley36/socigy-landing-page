@@ -1,7 +1,7 @@
-import TeamImg01 from "../../assets/about/team-mosaic-01.jpg";
-import TeamImg02 from "../../assets/about/team-mosaic-02.jpg";
-import TeamImg03 from "../../assets/about/team-mosaic-03.jpg";
-import TeamImg04 from "../../assets/about/vilda.png";
+import TeamImg01 from "../../assets/about/team-mosaic-01.webp";
+import TeamImg02 from "../../assets/about/team-mosaic-02.webp";
+import TeamImg03 from "../../assets/about/team-mosaic-03.webp";
+import TeamImg04 from "../../assets/about/vilda.webp";
 import { Particles } from "../../utility/Particles";
 
 export default function HeroAbout() {

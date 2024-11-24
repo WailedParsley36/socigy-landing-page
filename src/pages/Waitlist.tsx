@@ -3,17 +3,17 @@ import { FormEvent, useEffect, useRef, useState } from "react";
 import CheckIcon from '../assets/icons/check-icon.svg'
 import CloseIcon from '../assets/icons/close-icon.svg'
 
-import UserIcon0 from '../assets/user-icons/user-28-01.jpg'
-import UserIcon1 from '../assets/user-icons/user-28-02.jpg'
-import UserIcon2 from '../assets/user-icons/user-28-03.jpg'
-import UserIcon3 from '../assets/user-icons/user-28-04.jpg'
-import UserIcon4 from '../assets/user-icons/user-28-05.jpg'
-import UserIcon5 from '../assets/user-icons/user-28-06.jpg'
-import UserIcon6 from '../assets/user-icons/user-28-07.jpg'
-import UserIcon7 from '../assets/user-icons/user-28-08.jpg'
-import UserIcon8 from '../assets/user-icons/user-28-09.jpg'
-import UserIcon9 from '../assets/user-icons/user-28-10.jpg'
-import UserIcon10 from '../assets/user-icons/user-28-11.jpg'
+import UserIcon0 from '../assets/user-icons/user-28-01.webp'
+import UserIcon1 from '../assets/user-icons/user-28-02.webp'
+import UserIcon2 from '../assets/user-icons/user-28-03.webp'
+import UserIcon3 from '../assets/user-icons/user-28-04.webp'
+import UserIcon4 from '../assets/user-icons/user-28-05.webp'
+import UserIcon5 from '../assets/user-icons/user-28-06.webp'
+import UserIcon6 from '../assets/user-icons/user-28-07.webp'
+import UserIcon7 from '../assets/user-icons/user-28-08.webp'
+import UserIcon8 from '../assets/user-icons/user-28-09.webp'
+import UserIcon9 from '../assets/user-icons/user-28-10.webp'
+import UserIcon10 from '../assets/user-icons/user-28-11.webp'
 import { useFirebase } from "../contexts/FirebaseContext";
 import { logEvent, setUserProperties } from "firebase/analytics";
 import { Particles } from "../utility/Particles";
