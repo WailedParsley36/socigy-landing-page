@@ -4,20 +4,6 @@ import { Particles } from "../utility/Particles";
 export default function ContactUs() {
     return <>
         <PageMetadata title={"Socigy - Contact Us | Let's Connect"} description={"Have questions or want to collaborate? Connect with Socigy to discuss business opportunities, partnerships, or general inquiries. Let’s make something amazing together!"} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "ContactPage",
-                "name": "Socigy Contact Us",
-                "url": "https://socigy.com/contact",
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "email": "info@socigy.com",
-                    "contactType": "Business",
-                    "availableLanguage": ["English"]
-                }
-            })
-        }} />
 
         <Particles className="absolute inset-0 -z-50" />
 
