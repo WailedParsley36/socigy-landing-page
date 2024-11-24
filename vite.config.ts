@@ -13,5 +13,8 @@ export default defineConfig({
     ext: '.gz',
   }), htmlMinifier({
     minify: true
-  })]
+  })],
+  build: {
+    sourcemap: true
+  }
 })
